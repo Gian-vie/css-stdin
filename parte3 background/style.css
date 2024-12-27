@@ -1,0 +1,9 @@
+/* imagem no background */
+
+#background {
+  background-image: url("../parte3 background/img/img1.png");
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  color:aliceblue;
+}

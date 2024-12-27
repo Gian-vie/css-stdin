@@ -1,0 +1,21 @@
+/* bordas */
+
+h1{
+  border: 5px solid rgb(54, 138, 68);
+}
+
+h2{
+  border: 5px dotted rgb(54, 55, 138);
+}
+
+h3{
+  border-bottom: 5px double rgb(54, 138, 68);
+  border-top: 5px dashed rgb(54, 55, 138);
+  border-left: 10px solid yellow;
+  border-right: 10px dotted lightcoral;
+}
+
+/*
+margin = espaçamento externo do elemento
+pading = espaçamento interno do elemento 
+*/

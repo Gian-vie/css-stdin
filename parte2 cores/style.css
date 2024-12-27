@@ -1,0 +1,13 @@
+/* cores */
+
+h1 {
+    color: blueviolet;
+}
+
+h2 {
+    color: #123456
+}
+
+h3 {
+    color: rgb(123, 234, 255) /*255 é o maximo*/
+}
