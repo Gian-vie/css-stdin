@@ -1,22 +1,78 @@
-/* bordas */
+/* reset dos padroes do html */
 
-h1{
-  border: 5px solid rgb(54, 138, 68);
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
 }
 
-h2{
-  border: 5px dotted rgb(54, 55, 138);
+/* cabeçalho */
+
+h1, p {
+  text-align: center;
 }
 
-h3{
-  border-bottom: 5px double rgb(54, 138, 68);
-  border-top: 5px dashed rgb(54, 55, 138);
-  border-left: 10px solid yellow;
-  border-right: 10px dotted lightcoral;
+h1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #4A87E8;
 }
 
-/*
-margin = espaçamento externo do elemento
-pading = espaçamento interno do elemento 
-*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
 
+.card {
+  display: inline-block;
+  width: 200px;
+  margin: 20px;
+  border: 1px solid #4A87E8;
+  border-radius: 5px;
+}
+
+.card-image {
+  height: 200px;
+  background-size: cover;
+}
+
+.card-1 .card-image{
+  background-image: url("../pratic/img/img1.jpg");
+}
+
+.card-2 .card-image{
+  background-image: url("../pratic/img/img2.jpg");
+}
+
+.card-3 .card-image{
+  background-image: url("../pratic/img/img3.jpg");
+}
+
+.card-4 .card-image{
+  background-image: url("../pratic/img/img4.jpg");
+}
+
+.btn {
+  display: block;
+  background-color: #4A87E8;
+  color: #fff;
+  margin-top: 20px;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid transparent;
+  font-weight: bold;
+  transition: .5s;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background-color: #fff;
+  border-color: #4A87E8;
+  color: #4A87E8;
+}
+
+.card-description {
+  padding: 20px 10px;
+  
+}
