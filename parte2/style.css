@@ -1,0 +1,33 @@
+/* sintaze normal */
+h1 {
+    color: rebeccapurple;
+    font-size: 50px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+/* sintaxe de classe */
+
+.paragrafoComClasse {
+    background-color: lightcyan;
+}
+
+/* sintaxe de ID */
+
+#paragrafoComId {
+    background-color: aqua;
+}
+
+/* sintaxe de classe dentro de div */
+
+.box .paragrafo_Box {
+    color: blueviolet;
+}
+
+
+/* alteraçoes em geral */
+p {
+    color: tomato;
+}
